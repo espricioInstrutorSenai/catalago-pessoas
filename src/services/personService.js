@@ -11,3 +11,15 @@ export async function getPersons(){
         return [];
     }
 }
+
+export async function getPersonById(id) {
+        try {
+        const response = await api_jsonfake.get(`/users/${id}`);
+
+        return response.data;
+    } catch (error) {
+        console.error("Erro ao buscar dados", error);
+
+        return [];
+    }
+}

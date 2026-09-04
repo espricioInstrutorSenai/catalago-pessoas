@@ -11,6 +11,7 @@ export default function SkeletonLoading() {
                             <h5> <Skeleton width="15%" /> </h5>
                             <p> <Skeleton width="20%" /> </p>
                             <p> <Skeleton width="17%" /> </p>
+                            <button className="btn"><Skeleton width="100%"/></button>
                         </div>
                     )
                 )
